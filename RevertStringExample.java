@@ -1,4 +1,4 @@
-public class LambdaJava8 {
+public class RevertStringClass {
     public static void main(String[] args) {
         example1();
     }
