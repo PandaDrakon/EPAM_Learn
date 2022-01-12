@@ -1,10 +1,11 @@
 public class RevertStringClass {
-    public static void main(String[] args) {
-        example1();
+       public static void main(String[] args) {
+        String source = "Revert this message in this example";
+           
+        revertStringFunction(source);
     }
 
-    private static void example1() {
-        String source = "Revert this message in this example";
+    private static void revertStringFunction(String source) {
         StringBuilder reversed = new StringBuilder();
         for (int i = source.length() - 1 ; i > 0 ; i--) {
             reversed.append(source.charAt(i));
